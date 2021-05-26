@@ -1,0 +1,1 @@
+The purpose of this project is to recreate the Google homepage.  The scope of this project will be to replicate the structure using HTML and the appearance using CSS.  This project is not intended to reproduce features such as search, sign up, or links that work, but rather to display basic HTML/CSS competence.
