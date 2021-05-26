@@ -1,9 +1,32 @@
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
+    color:black;
 }
 
-/*use wordhover class for text underlined while hovering */
-.wordhover:hover {  
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.words {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.words:hover {  
     text-decoration: underline;
+    color:black;
+}
+
+.navigation {
+    
+}
+
+.nav-left {
+    
+}
+
+.nav-right {
+    
 }
