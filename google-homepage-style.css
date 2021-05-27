@@ -9,6 +9,13 @@ a {
     color:black;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .words {
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -20,13 +27,18 @@ a {
 }
 
 .navigation {
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-left {
-    
+    float: left;
 }
 
 .nav-right {
+    float: right;
+}
+
+.logo {
     
 }
