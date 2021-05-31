@@ -13,12 +13,28 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 20px;
+    width: 75%;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+}
+
+input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
 }
 
 .words {
     font-size: 14px;
     font-family: arial, sans-serif;
+    padding: 12px;
 }
 
 .words:hover {  
@@ -29,16 +45,26 @@ img {
 .navigation {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .nav-left {
-    float: left;
+    
 }
 
 .nav-right {
-    float: right;
+    margin-right: 15px;
+    margin-left: auto;
 }
 
 .logo {
+    
+}
+
+.search {
+    text-align: center;
+}
+
+.foot {
     
 }
