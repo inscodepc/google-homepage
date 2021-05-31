@@ -18,14 +18,18 @@ img {
     margin-bottom: 20px;
 }
 
-input {
+.pagewrap {
+    display: flex;
+}
+
+.searchbar {
     border-radius: 20px;
     width: 75%;
     height: 40px;
     border: 1px solid #dfe1e5;
 }
 
-input:hover {
+.searchbar:hover {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
@@ -62,9 +66,24 @@ input:hover {
 }
 
 .search {
+    display: block;
+    text-align: center;
+}
+
+.searchbuttons {
+    display: block;
     text-align: center;
 }
 
 .foot {
     
+}
+
+.foot-top {
+    text-align: center;
+}
+
+.foot-bottom {
+    display: flex;
+    flex-direction: row;
 }

@@ -2,31 +2,51 @@
 <html>
 <head>
     <link rel="stylesheet" href="google-homepage-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Google Homepage</title>
 </head>
 <body>
     <div class="navigation"> <!--can use nav tag here-->
         <div class="nav-left">
-            <a href="" class="words about">About</a>
-            <a href="" class="words store">Store</a>
+            <a href="" class="words">About</a>
+            <a href="" class="words">Store</a>
         </div>
         <!--add div for spacer use flex SH 1 0 auto-->
         <div class="nav-right">
-            <a href="" class="words gmail">Gmail</a>
-            <a href="" class="words images">Images</a>
-            <!--Apps button-->
-            <!--Sign Up button-->
+            <a href="" class="words">Gmail</a>
+            <a href="" class="words">Images</a>
+            <span class="material-icons">apps</span>
+            <button type="button" class="signin">Sign in</button>
         </div>
     </div>
     <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" width=292 height=92>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
     <div class="search">
-        <input type="search">
+        <!--need div with search border to insert magnifying glass icon next to search input-->
+        <input type="search" class="searchbar">
+    </div>
+    <div class="searchbuttons">
+        <button type="button">Google Search</button>
+        <button type="button">I'm Feeling Lucky</button>
     </div>
     <div class="foot">
-        <div class="foot-top"></div>
-        <div class="foot-bottom"></div>
+        <div class="foot-top">
+            <!--sustainability leaf img-->
+            <a href="" class="words">Carbon neutral since 2007</a>
+        </div>
+        <div class="foot-bottom">
+            <div class="foot-bottom-left">
+                <a href="" class="words">Advertising</a>
+                <a href="" class="words">Business</a>
+                <a href="" class="words">How Search works</a>
+            </div>
+            <div class=foot-bottom-right">
+                <a href="" class="words">Privacy</a>
+                <a href="" class="words">Terms</a>
+                <a href="" class="words">Settings</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
